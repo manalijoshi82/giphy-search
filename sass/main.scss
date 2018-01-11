@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url('https://orig00.deviantart.net/26b4/f/2016/027/2/3/wallpaper_geometric_color_3_2k_uhd_by_airworldking-d9okfnp.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	margin: 0 auto;
+	width: 50%;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 3rem;
+	letter-spacing: 0.3rem;
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.searchBox {
+	text-align: center;
+	padding-top: 2rem;
+
+	input {
+		font-size: 1.8rem;
+		padding-left: 1rem;
+		color: black;
+		font-weight: 600;
+		outline: none;
+
+		&:focus {
+			border: 2px solid #ce7cc6;
+		}
+	}
+	input[type='search']::-webkit-search-decoration,
+	input[type='search']::-webkit-search-cancel-button,
+	input[type='search']::-webkit-search-results-button,
+	input[type='search']::-webkit-search-results-decoration {
+		display: none;
+	}
+
+	.query {
+		width: 80%;
+		height: 50px;
+		background-color: #eee;
+		border: 2px solid gray;
+		margin-bottom: 2rem;
+	}
+}
+
+img {
+	height: 300px;
+	width: 300px;
+	padding: 1rem;
+}
+
+.results {
+	width: 100%;
+	min-height: 100;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gifDiv {
+	float: left;
+}
+
+.buttons {
+	margin-bottom: 2rem;
+}
+
+.trending {
+	width: 150px;
+	height: 40px;
+	margin-right: 20px;
+	background-color: #afceb7;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+
+	&:hover {
+		border: 2px solid #ce7cc6;
+	}
+}
+
+.random {
+	width: 150px;
+	height: 40px;
+	background-color: #da94ab;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	&:hover {
+		border: 2px solid #7081ee;
+	}
+}
